@@ -24,5 +24,8 @@
     // Insert code here to tear down your application
 }
 
-
+- (IBAction) doAction: (id)sender
+{
+    NSLog(@"Pressed");
+}
 @end

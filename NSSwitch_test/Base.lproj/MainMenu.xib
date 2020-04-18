@@ -692,14 +692,23 @@
                     <switch toolTip="Hello" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" controlSize="mini" baseWritingDirection="rightToLeft" alignment="left" translatesAutoresizingMaskIntoConstraints="NO" id="YDL-3o-I9N">
                         <rect key="frame" x="122" y="273" width="28" height="16"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <action selector="doAction:" target="Voe-Tx-rLC" id="Tia-5U-OlN"/>
+                        </connections>
                     </switch>
                     <switch toolTip="Hello" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" baseWritingDirection="rightToLeft" alignment="left" translatesAutoresizingMaskIntoConstraints="NO" id="49r-gw-R2t">
                         <rect key="frame" x="122" y="171" width="42" height="24"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <action selector="doAction:" target="Voe-Tx-rLC" id="O8G-Xs-lsB"/>
+                        </connections>
                     </switch>
                     <switch toolTip="Hello" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" controlSize="small" baseWritingDirection="rightToLeft" alignment="left" translatesAutoresizingMaskIntoConstraints="NO" id="joi-TK-ylq">
                         <rect key="frame" x="122" y="225" width="36" height="21"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <action selector="doAction:" target="Voe-Tx-rLC" id="Wtm-hw-dGz"/>
+                        </connections>
                     </switch>
                 </subviews>
             </view>
