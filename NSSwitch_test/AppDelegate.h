@@ -10,6 +10,9 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property IBOutlet NSSwitch *switch1;
+@property IBOutlet NSSwitch *switch2;
+@property IBOutlet NSSwitch *switch3;
 
 @end
 

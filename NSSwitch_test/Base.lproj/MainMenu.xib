@@ -14,6 +14,9 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
+                <outlet property="switch1" destination="YDL-3o-I9N" id="Dqh-Je-dkS"/>
+                <outlet property="switch2" destination="joi-TK-ylq" id="eYC-cv-Ug8"/>
+                <outlet property="switch3" destination="49r-gw-R2t" id="vQ7-UU-X3E"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -710,9 +713,17 @@
                             <action selector="doAction:" target="Voe-Tx-rLC" id="Wtm-hw-dGz"/>
                         </connections>
                     </switch>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x0s-BA-UwX">
+                        <rect key="frame" x="251" y="264" width="116" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8XL-az-u0P">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="132" y="-120"/>
+            <point key="canvasLocation" x="146" y="-385"/>
         </window>
     </objects>
 </document>
