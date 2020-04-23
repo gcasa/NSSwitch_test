@@ -21,7 +21,7 @@
     //[self.switch2 setIntegerValue:1];
     //[self.switch3 setStringValue:@"1"];
     //[self.switch1 setCell: [[NSButtonCell alloc] init]];
-    /*
+    
     NSData *d = [NSKeyedArchiver archivedDataWithRootObject:self.switch1
                                       requiringSecureCoding:NO error:  NULL];
     [d writeToFile:@"switch1.data" atomically:YES];
@@ -30,7 +30,7 @@
     [d writeToFile:@"switch2.data" atomically:YES];
     d = [NSKeyedArchiver archivedDataWithRootObject:self.switch3
                               requiringSecureCoding:NO error:  NULL];
-    [d writeToFile:@"switch3.data" atomically:YES];*/
+    [d writeToFile:@"switch3.data" atomically:YES];
 }
 
 
