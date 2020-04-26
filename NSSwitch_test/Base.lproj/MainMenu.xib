@@ -709,6 +709,9 @@
                     <switch toolTip="Hello" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" controlSize="small" baseWritingDirection="rightToLeft" alignment="left" state="on" translatesAutoresizingMaskIntoConstraints="NO" id="joi-TK-ylq">
                         <rect key="frame" x="122" y="225" width="36" height="21"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <action selector="takeDoubleValueFrom:" target="8i6-r0-Qeh" id="8uj-lq-OgD"/>
+                        </connections>
                     </switch>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x0s-BA-UwX">
                         <rect key="frame" x="251" y="264" width="116" height="32"/>
