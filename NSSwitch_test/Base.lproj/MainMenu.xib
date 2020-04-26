@@ -687,7 +687,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2048" height="1129"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
             <view key="contentView" toolTip="Test" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -699,7 +699,7 @@
                             <action selector="doAction:" target="Voe-Tx-rLC" id="Tia-5U-OlN"/>
                         </connections>
                     </switch>
-                    <switch toolTip="Hello" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" baseWritingDirection="rightToLeft" alignment="left" translatesAutoresizingMaskIntoConstraints="NO" id="49r-gw-R2t">
+                    <switch toolTip="Hello" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" mirrorLayoutDirectionWhenInternationalizing="always" continuous="YES" baseWritingDirection="leftToRight" alignment="left" translatesAutoresizingMaskIntoConstraints="NO" id="49r-gw-R2t">
                         <rect key="frame" x="122" y="171" width="42" height="24"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <connections>
@@ -709,9 +709,6 @@
                     <switch toolTip="Hello" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" controlSize="small" baseWritingDirection="rightToLeft" alignment="left" state="on" translatesAutoresizingMaskIntoConstraints="NO" id="joi-TK-ylq">
                         <rect key="frame" x="122" y="225" width="36" height="21"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <connections>
-                            <action selector="doAction:" target="Voe-Tx-rLC" id="Wtm-hw-dGz"/>
-                        </connections>
                     </switch>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x0s-BA-UwX">
                         <rect key="frame" x="251" y="264" width="116" height="32"/>
@@ -721,6 +718,15 @@
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8i6-r0-Qeh">
+                        <rect key="frame" x="261" y="227" width="96" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="DfJ-Kr-ND5">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
             <point key="canvasLocation" x="146" y="-385"/>

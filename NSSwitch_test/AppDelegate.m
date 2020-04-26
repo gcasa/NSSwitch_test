@@ -17,9 +17,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-    //[self.switch1 setFloatValue:1.0];
-    //[self.switch2 setIntegerValue:1];
-    //[self.switch3 setStringValue:@"1"];
+    [self.switch1 setFloatValue:1.0];
+    [self.switch2 setIntegerValue:1];
+    [self.switch3 setStringValue:@"0"];
     //[self.switch1 setCell: [[NSButtonCell alloc] init]];
     
     NSData *d = [NSKeyedArchiver archivedDataWithRootObject:self.switch1
